@@ -1,6 +1,7 @@
 import "./App.css";
 import Body from "./components/Body";
 import Description from "./components/Description";
+import EarlyAccess from "./components/EarlyAccess";
 import Header from "./components/Header";
 import Info from "./components/Info";
 import Productive from "./components/Productive";
@@ -15,6 +16,7 @@ function App() {
         <Info />
         <Productive />
         <Testimonials />
+        <EarlyAccess />
       </Body>
     </>
   );
