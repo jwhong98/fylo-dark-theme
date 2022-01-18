@@ -4,6 +4,7 @@ import Description from "./components/Description";
 import Header from "./components/Header";
 import Info from "./components/Info";
 import Productive from "./components/Productive";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Description />
         <Info />
         <Productive />
+        <Testimonials />
       </Body>
     </>
   );
